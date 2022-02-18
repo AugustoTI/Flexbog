@@ -18,7 +18,7 @@ Se você deseja clonar o projeto em sua máquina:
 Com o `git` instalado, abra seu terminal no local onde você deseje que projeto fique e rode o seguinte comando:
 
 ```
-git clone https://github.com/AugustoTI/Bikcraft.git
+git clone https://github.com/AugustoTI/Flexbog.git
 ```
 
 ## ☕ Acessando o projeto
