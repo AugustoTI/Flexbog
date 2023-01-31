@@ -13,8 +13,13 @@ a {
     text-decoration: none;
 }
 /* ========== ESTILOS GERAIS ========== */
+body,
+input,
+button {
+    font-family: "Nunito", Arial, helvetica, sans-serif;
+}
+
 body {
-    font-family: 'Nunito', Arial, helvetica, sans-serif;
     color: #222;
 }
 
@@ -160,14 +165,6 @@ img {
     border-top: 8px solid #66d9eb;
 }
 /* ========== PREÇOS ========== */
-.preco {
-    background-color: #f7f7f7;
-    padding: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
-
 .preco-item {
     flex: 1;
     border: 4px solid #fff;
@@ -215,7 +212,7 @@ img {
 }
 
 .preco-item li::after {
-    content: '';
+    content: "";
     display: block;
     width: 6px;
     height: 6px;
@@ -256,7 +253,7 @@ img {
 }
 
 .qualidade-item h2::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 8px;
     height: 30px;
@@ -320,7 +317,7 @@ img {
     font-size: 1.25rem;
     color: #7c7c7c;
     font-style: italic;
-    font-family: 'Nunito', Arial, helvetica, sans-serif;
+    font-family: "Nunito", Arial, helvetica, sans-serif;
     border: 4px solid #2c70ff;
     background-color: transparent;
     outline: none;
@@ -330,7 +327,7 @@ img {
 
 .newsletter-form button {
     flex: 1 1 200px;
-    font-family: 'Nunito', Arial, helvetica, sans-serif;
+    font-family: "Nunito", Arial, helvetica, sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
     text-transform: uppercase;
